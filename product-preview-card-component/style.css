@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.parent {
+    width: 525px;
+    height: 400px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    margin-top: -262.5px;
+    margin-left: -200px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img {
+    height: inherit;
+}
+
+img {
+    width: 262.5px;
+    height: inherit;
+}
+
+.perfume {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    position: absolute;
+    top: 25px;
+    left: 280px;
+    color: hsl(228, 12%, 48%);
+}
+
+h2 {
+    /*display: inline;*/
+    width: 200px;
+    position: absolute;
+    top: 13%;
+    font-family: 'Fraunces', serif;
+    margin-left: 280px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.para {
+    font-family: 'Montserrat', sans-serif;
+    width: 210px;
+    margin-top: -220px;
+    margin-left: 282px;
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(212, 21%, 14%)
+}
+
+span {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    left: 280px;
+    top: 270px
+}
+
+del {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+
+button {
+    width: 210px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    top: 330px;
+    left: 280px;
+    text-align: center;
+}
+
+svg {
+    position: absolute;
+    top: 12px;
+    left: 50px;
+}
+
+button:hover {
+    background-color: hsl(158 36% 20%);
+    ;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width: 376px) {
+    body {
+        background-color: hsl(30, 38%, 92%);
+    }
+    .parent {
+        width: 310px;
+        height: 648px;
+        position: absolute;
+        top: 38%;
+        left: 62%;
+        overflow: hidden;
+    }
+    .img {
+        width: 321px;
+        height: 565px;
+        overflow: hidden;
+        position: absolute;
+        top: -276px;
+    }
+    .img img {
+        margin: -331px 87px -695px -10px;
+        width: 322px;
+    }
+    .perfume {
+        position: absolute;
+        top: 320px;
+        left: 25px;
+    }
+    h2 {
+        position: absolute;
+        top: 342px;
+        left: -259px;
+        width: 250px;
+    }
+    .para {
+        position: absolute;
+        top: 654px;
+        left: -256px;
+        width: 264px;
+    }
+    span {
+        position: absolute;
+        top: 525px;
+        left: 25px;
+    }
+    button {
+        position: absolute;
+        top: 582px;
+        left: 25px;
+    }
+}
