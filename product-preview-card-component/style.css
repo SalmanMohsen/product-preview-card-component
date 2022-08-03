@@ -111,7 +111,7 @@ button {
     cursor: pointer;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 1081px) {
     body {
         background-color: hsl(30, 38%, 92%);
     }
